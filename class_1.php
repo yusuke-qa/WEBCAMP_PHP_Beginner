@@ -5,7 +5,7 @@ class クラス名
     //
     private $変数;
 
-    public function 関数 ()
+    public function 関数()
     {
         //処理
         echo "メソッドの処理 \n";
@@ -16,6 +16,7 @@ class クラス名
     {
         $this->変数 = $v;
     }
+
     //
     public function get変数()
     {
@@ -23,11 +24,11 @@ class クラス名
     }
 }
 
-// クラスからインスタンス(オブジェクト)を作ってみる
+//クラスからインスタンス(オブジェクト)を作ってみる
 $obj = new クラス名();
 var_dump($obj);
-$obj->関数();//メソッドを呼び出す
-// echo $obj->変数 , "\n"; //  変数を読む：これはエラーになる
+$obj->関数(); // メソッドを呼び出す
+// echo $obj->変数 , "\n"; // 変数を読む :これはエラーになる
 
 //
 $obj->set変数('data');

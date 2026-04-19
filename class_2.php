@@ -2,7 +2,7 @@
 
 class MyClass
 {
-    // オブジェクト定数の宣言
+    //オブジェクト定数の宣言
     const HOGE = 'string';
 
     // コンストラクタ
@@ -17,7 +17,6 @@ class MyClass
         echo "デストラクタが動いた!! \n";
     }
 }
-
 // オブジェクト定数を使ってみる
 var_dump( MyClass::HOGE );
 
